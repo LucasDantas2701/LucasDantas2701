@@ -39,8 +39,7 @@
 
 | Projeto | Descrição |
 |---|---|
-| 👁️ NightEyes | Sistema inteligente de monitoramento de fadiga e distrações — Angular, Python e Supabase, com testes automatizados (Selenium) |
-| 🔌 AMPHAROS | Sistema embarcado com ESP32 — desenvolvimento, testes e validação de comunicação entre dispositivos |
+| 👁️ [NightEyes](https://github.com/LucasDantas2701/Night-Eyes-Frontend) | Sistema inteligente de monitoramento de fadiga e distrações — Angular, Python e Supabase, com testes automatizados (Selenium) |
 | 🤖 [BotConsultaPrecos](https://github.com/LucasDantas2701/BotConsultaPrecos) | Bot de Telegram que consulta preços na Amazon, Mercado Livre e Aliexpress |
 | ✈️ [flightradar-scrapper](https://github.com/LucasDantas2701/flightradar-scrapper) | Automação web que identifica aeronaves no FlightRadar via PyAutoGUI + Playwright |
 | 💡 [projeto-LiFi](https://github.com/LucasDantas2701/projeto-LiFi) | Sistema alternativo de transmissão segura de dados usando ondas luminosas |
