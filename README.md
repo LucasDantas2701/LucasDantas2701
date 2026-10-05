@@ -39,6 +39,7 @@
 
 | Projeto | Descrição |
 |---|---|
+| 👁️ [ANCHOR]([https://github.com/LucasDantas2701/Night-Eyes-Frontend](https://github.com/LucasDantas2701/ANCHOR)) | Sistema de automação web inteligente (RPA) que transforma pedidos em linguagem natural em ações no navegador através de agentes de IA locais. |
 | 👁️ [NightEyes](https://github.com/LucasDantas2701/Night-Eyes-Frontend) | Sistema inteligente de monitoramento de fadiga e distrações — Angular, Python e Supabase, com testes automatizados (Selenium) |
 | 🤖 [BotConsultaPrecos](https://github.com/LucasDantas2701/BotConsultaPrecos) | Bot de Telegram que consulta preços na Amazon, Mercado Livre e Aliexpress |
 | ✈️ [flightradar-scrapper](https://github.com/LucasDantas2701/flightradar-scrapper) | Automação web que identifica aeronaves no FlightRadar via PyAutoGUI + Playwright |
