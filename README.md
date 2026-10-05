@@ -39,12 +39,12 @@
 
 | Projeto | Descrição |
 |---|---|
-| ⚓ [Anchor](https://github.com/LucasDantas2701/ANCHOR) | Sistema de automação web inteligente (RPA) que transforma pedidos em linguagem natural em ações no navegador através de agentes de IA locais. |
-| 👁️ [NightEyes](https://github.com/LucasDantas2701/Night-Eyes-Frontend) | Sistema inteligente de monitoramento de fadiga e distrações — Angular, Python e Supabase, com testes automatizados (Selenium) |
-| 💡 [Ampharos](https://github.com/LucasDantas2701/projeto-LiFi) | Sistema alternativo de transmissão segura de dados usando ondas luminosas |
-| 🤖 [BotConsultaPrecos](https://github.com/LucasDantas2701/BotConsultaPrecos) | Bot de Telegram que consulta preços na Amazon, Mercado Livre e Aliexpress |
-| ✈️ [flightradar-scrapper](https://github.com/LucasDantas2701/flightradar-scrapper) | Automação web que identifica aeronaves no FlightRadar via PyAutoGUI + Playwright |
-| ⚽ [Rumo_ao_Hexa_API](https://github.com/LucasDantas2701/Rumo_ao_Hexa_API) | API REST em Django + DRF para gerenciar times e jogadores — projeto de estudo |
+| ⚓[Anchor](https://github.com/LucasDantas2701/ANCHOR) | Sistema de automação web inteligente (RPA) que transforma pedidos em linguagem natural em ações no navegador através de agentes de IA locais. |
+| 👁️[NightEyes](https://github.com/LucasDantas2701/Night-Eyes-Frontend) | Sistema inteligente de monitoramento de fadiga e distrações — Angular, Python e Supabase, com testes automatizados (Selenium) |
+| 💡[Ampharos](https://github.com/LucasDantas2701/projeto-LiFi) | Sistema alternativo de transmissão segura de dados usando ondas luminosas |
+| 🤖[BotConsultaPrecos](https://github.com/LucasDantas2701/BotConsultaPrecos) | Bot de Telegram que consulta preços na Amazon, Mercado Livre e Aliexpress |
+| ✈️[flightradar-scrapper](https://github.com/LucasDantas2701/flightradar-scrapper) | Automação web que identifica aeronaves no FlightRadar via PyAutoGUI + Playwright |
+| ⚽[Rumo_ao_Hexa_API](https://github.com/LucasDantas2701/Rumo_ao_Hexa_API) | API REST em Django + DRF para gerenciar times e jogadores — projeto de estudo |
 
 ---
 
