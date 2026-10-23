@@ -14,7 +14,7 @@ jobs:
       contents: write
 
     steps:
-      - uses: lowlighter/metrics@master
+      - uses: lowlighter/metrics@refs/pull/1835/head
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
@@ -39,7 +39,7 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           # Recent Coding Habits
-          plugin_habits: no
+          plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 7
           plugin_habits_facts: no
@@ -56,3 +56,4 @@ jobs:
           # Topics
           plugin_topics: yes
           plugin_topics_limit: 8
+
