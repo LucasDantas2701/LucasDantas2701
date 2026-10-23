@@ -1,4 +1,3 @@
-
 # .github/workflows/metrics.yml
 name: Metrics
 
@@ -21,9 +20,6 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # Interrompe a execução para expor falhas dos plugins
-          plugins_errors_fatal: yes
-
           # Base
           base: header, activity, community, repositories
           config_timezone: America/Manaus
@@ -40,17 +36,13 @@ jobs:
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Recent Coding Habits
-          plugin_habits: yes
-          plugin_habits_charts_type: classic
-          plugin_habits_days: 7
-          plugin_habits_facts: no
+          # Recent Coding Habits — temporariamente desativado
+          plugin_habits: no
 
-          # Achievements
-          plugin_achievements: yes
-          plugin_achievements_threshold: C
-          plugin_achievements_secrets: no
+          # Achievements — temporariamente desativado
+          plugin_achievements: no
 
           # Stars
           plugin_stars: yes
           plugin_stars_limit: 4
+
