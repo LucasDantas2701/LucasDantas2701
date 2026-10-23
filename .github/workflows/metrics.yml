@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+
     steps:
       - uses: lowlighter/metrics@master
         with:
@@ -44,7 +45,7 @@ jobs:
           plugin_habits_facts: no
 
           # Achievements
-          plugin_achievements: no
+          plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: no
 
