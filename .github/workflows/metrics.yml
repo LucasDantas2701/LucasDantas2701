@@ -38,7 +38,7 @@ jobs:
           plugin_isocalendar_duration: full-year
 
           # Recent Coding Habits
-          plugin_habits: no
+          plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 7
           plugin_habits_facts: no
