@@ -1,10 +1,11 @@
-# Coloque este arquivo em: .github/workflows/metrics.yml
+# .github/workflows/metrics.yml
 name: Metrics
 
 on:
-  schedule: [{cron: "0 * * * *"}]   # Atualiza a cada hora
-  workflow_dispatch:                 # Permite rodar manualmente
-  push: {branches: ["main", "master"]}
+  schedule: [{cron: "0 * * * *"}]
+  workflow_dispatch:
+  push:
+    branches: ["main", "master"]
 
 jobs:
   github-metrics:
@@ -17,10 +18,14 @@ jobs:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
 
-          # Base (perfil, repositórios, stars, etc)
-          base: header, activity, community, repositories
+          # Interrompe a execução para expor falhas dos plugins
+          plugins_errors_fatal: yes
 
+          # Base
+          base: header, activity, community, repositories
           config_timezone: America/Manaus
+
+          # Linguagens
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_categories: markup, programming
@@ -28,20 +33,25 @@ jobs:
           plugin_languages_recent_days: 14
           plugin_languages_threshold: 0%
 
+          # Calendário de contribuições
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
+          # Recent Coding Habits
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 7
           plugin_habits_facts: no
 
+          # Achievements
           plugin_achievements: yes
           plugin_achievements_threshold: C
           plugin_achievements_secrets: no
 
+          # Stars
           plugin_stars: yes
           plugin_stars_limit: 4
 
+          # Topics
           plugin_topics: yes
           plugin_topics_limit: 8
