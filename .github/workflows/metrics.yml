@@ -14,10 +14,13 @@ jobs:
       contents: write
 
     steps:
-      - uses: lowlighter/metrics@latest
+      - uses: lowlighter/metrics@refs/pull/1834/head
         with:
           token: ${{ secrets.METRICS_TOKEN }}
           filename: metrics.svg
+
+          # Usa o código da referência selecionada, sem a imagem pré-compilada
+          use_prebuilt_image: no
 
           # Interrompe a execução para expor falhas dos plugins
           plugins_errors_fatal: yes
@@ -53,7 +56,4 @@ jobs:
           plugin_stars: yes
           plugin_stars_limit: 4
 
-          # Topics
-          plugin_topics: yes
-          plugin_topics_limit: 8
 
