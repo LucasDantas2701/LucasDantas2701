@@ -1,4 +1,4 @@
-```yaml
+
 # .github/workflows/metrics.yml
 name: Metrics
 
@@ -54,6 +54,3 @@ jobs:
           # Stars
           plugin_stars: yes
           plugin_stars_limit: 4
-```
-
-
