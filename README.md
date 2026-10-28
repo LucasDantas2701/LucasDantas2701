@@ -2,7 +2,7 @@
 
 # 👋 Hi, I'm Lucas
 
-### Python Developer | Automation, Bots & Backend
+### Python Developer | AI Agents, Automation & Backend
 
 </div>
 
@@ -10,20 +10,27 @@
 
 ### 🚀 About me
 
-- 🎓 Studying **Computer Engineering** (Faculdade Matias Machline, 7th semester)
-- 🤖 Scholarship recipient at **AX Academy** — Applied AI, Intelligent Agents, and Industrial Automation (FPF Tech in partnership with LG Electronics Brazil)
-- 🐍 I build **web automation and RPA with Python**, applying AI agents and process orchestration
-- 🛠️ I work with **Playwright, Selenium, BotCity, and Pandas** for automation and data processing
-- 🔌 Also curious about **embedded systems** (ESP32) and data communication
-- 🌱 Always learning — currently exploring more Django/DRF, FastAPI, and integrating AI agents into production
+- 🎓 Computer Engineering student at **Faculdade Matias Machline** (8th semester, graduating 12/2027)
+- 🤖 Scholarship recipient at **AX Academy** — Applied AI, Intelligent Agents, and Industrial Automation (FPF Tech in partnership with LG Electronics Brazil), where I completed the AI agents module (LangChain, tools, and MCP)
+- 🧠 I built **ANCHOR**, a web automation agent in which a local LLM only plans, verified step by step and evaluated with metrics
+- 🔌 I build **MCP servers** and LLM apps with local models (Ollama), plus **web automation and RPA with Python** (Playwright, Selenium, BotCity)
+- 📝 I write about what I build — see [Writing](#-writing)
+- 🔧 Also curious about **embedded systems** (ESP32) and data communication
+- 🌱 Currently exploring more Django/DRF, FastAPI, and integrating AI agents into production
+- 💼 Looking for an internship in **AI engineering / software development**
 
 ---
 
 ### 🛠️ Stack
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ![Playwright](https://img.shields.io/badge/Playwright-2EAD33?style=for-the-badge&logo=playwright&logoColor=white)
 ![Selenium](https://img.shields.io/badge/Selenium-43B02A?style=for-the-badge&logo=selenium&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -39,12 +46,20 @@
 
 | Project | Description |
 |---|---|
-| ⚓[Anchor](https://github.com/LucasDantas2701/ANCHOR) | Intelligent web automation system (RPA) that turns natural-language requests into browser actions through local AI agents. |
-| 👁️[NightEyes](https://github.com/LucasDantas2701/Night-Eyes-Frontend) | Intelligent fatigue and distraction monitoring system — Angular, Python, and Supabase, with automated tests (Selenium) |
-| 💡[Ampharos](https://github.com/LucasDantas2701/projeto-LiFi) | Alternative system for secure data transmission using light waves |
-| 🤖[BotConsultaPrecos](https://github.com/LucasDantas2701/BotConsultaPrecos) | Telegram bot that checks prices on Amazon, Mercado Livre, and AliExpress |
-| ✈️[flightradar-scrapper](https://github.com/LucasDantas2701/flightradar-scrapper) | Web automation that identifies aircraft on FlightRadar via PyAutoGUI + Playwright |
-| ⚽[Rumo_ao_Hexa_API](https://github.com/LucasDantas2701/Rumo_ao_Hexa_API) | REST API built with Django + DRF to manage teams and players — study project |
+| ⚓ [ANCHOR](https://github.com/LucasDantas2701/ANCHOR) | Web automation agent where a local LLM only plans, a heuristic finds the page elements, and the user decides in doubtful cases. With local 4B and 9B models it completed 82% and 84% of 30 resilience tasks (development numbers), and false successes dropped from 33 and 41 to 2 and 1 over 150 runs. |
+| 🔌 [steam-mcp](https://github.com/LucasDantas2701/steam-mcp) | MCP server (FastMCP) for a fictional game store: 9 tools, 1 resource, and 1 prompt over Supabase, deployed on Vercel with its own frontend — [live demo](https://steam-mcp-green.vercel.app). Learning project. |
+| 💬 [IA-Express](https://github.com/LucasDantas2701/IA-Express) | Terminal chatbot with a local LLM (llama3.2:1b via Ollama) that answers only from a manual, with code-side hallucination guards; tested on 15 questions across 5 categories. |
+| 👁️ [NightEyes](https://github.com/LucasDantas2701/Night-Eyes-Frontend) | Intelligent fatigue and distraction monitoring system — Angular, Python, and Supabase, with automated tests (Selenium) |
+| 🤖 [BotConsultaPrecos](https://github.com/LucasDantas2701/BotConsultaPrecos) | Telegram bot that checks prices on Amazon, Mercado Livre, and AliExpress |
+| ✈️ [flightradar-scrapper](https://github.com/LucasDantas2701/flightradar-scrapper) | Web automation that identifies aircraft on FlightRadar via PyAutoGUI + Playwright |
+| ⚽ [Rumo_ao_Hexa_API](https://github.com/LucasDantas2701/Rumo_ao_Hexa_API) | REST API built with Django + DRF to manage teams and players — study project |
+| 💡 [Ampharos](https://github.com/LucasDantas2701/projeto-LiFi) | Alternative system for secure data transmission using light waves |
+
+---
+
+### 📝 Writing
+
+- [Why the LLM in my automation agent never clicks anything](https://dev.to/lucasdantas2701/why-the-llm-in-my-automation-agent-never-clicks-anything-2edm) — DEV Community, on the design behind ANCHOR
 
 ---
 
